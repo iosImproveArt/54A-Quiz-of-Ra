@@ -109,7 +109,7 @@ struct ProfileViewQuizram54: View {
                         .aspectRatio(contentMode: .fit)
                         .overlay {
                             Text("Save")
-                                .withFontQuizram54(size: 18.6, weight: .regular, color: .hexQuizram54("0D0D0D"))
+                                .withFontQuizram54(size: 18.6, weight: .regular)
                         }
                 }
                 
@@ -126,7 +126,7 @@ struct ProfileViewQuizram54: View {
                         .aspectRatio(contentMode: .fit)
                         .overlay {
                             Text("Delete")
-                                .withFontQuizram54(size: 18.6, weight: .regular, color: .hexQuizram54("0D0D0D"))
+                                .withFontQuizram54(size: 18.6, weight: .regular)
                         }
                 }
             }

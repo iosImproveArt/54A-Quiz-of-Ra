@@ -256,7 +256,7 @@ struct QuestionViewQuizram54: View {
                                 .frame(height: 40)
                                 .overlay {
                                     Text("MAIN MENU")
-                                        .withFontQuizram54(size: 18.46, weight: .regular, color: .hexQuizram54("0D0D0D"))
+                                        .withFontQuizram54(size: 18.46, weight: .regular)
                                 }
                         }.padding(40)
                     }
@@ -315,7 +315,7 @@ struct QuestionViewQuizram54: View {
                                 .frame(height: 40)
                                 .overlay {
                                     Text("MAIN MENU")
-                                        .withFontQuizram54(size: 18.46, weight: .regular, color: .hexQuizram54("0D0D0D"))
+                                        .withFontQuizram54(size: 18.46, weight: .regular)
                                 }
                         }.padding(40)
                     }

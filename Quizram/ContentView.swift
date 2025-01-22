@@ -98,7 +98,8 @@ struct ContentViewQuizram54: View {
                 selectedTab = .quiz
             } label: {
                 Image("tab 1")
-                    .opacity(selectedTab == .quiz ? 1: 0.6)
+                    .renderingMode(selectedTab == .quiz ? .template: .original)
+                    .foregroundStyle(.white)
             }
             
             Spacer()
@@ -107,7 +108,8 @@ struct ContentViewQuizram54: View {
                 selectedTab = .profile
             } label: {
                 Image("tab 2")
-                    .opacity(selectedTab == .profile ? 1: 0.6)
+                    .renderingMode(selectedTab == .profile ? .template: .original)
+                    .foregroundStyle(.white)
             }
             
             Spacer()
@@ -116,7 +118,8 @@ struct ContentViewQuizram54: View {
                 selectedTab = .facts
             } label: {
                 Image("tab 3")
-                    .opacity(selectedTab == .facts ? 1: 0.6)
+                    .renderingMode(selectedTab == .facts ? .template: .original)
+                    .foregroundStyle(.white)
             }
             
             Spacer()
@@ -125,15 +128,16 @@ struct ContentViewQuizram54: View {
                 selectedTab = .questions
             } label: {
                 Image("tab 4")
-                    .opacity(selectedTab == .questions ? 1: 0.6)
+                    .renderingMode(selectedTab == .questions ? .template: .original)
+                    .foregroundStyle(.white)
             }
         }.padding(.horizontal, 40)
             .padding(.vertical)
             .padding(.bottom, 50)
             .background {
-                Color.hexQuizram54("E57CA4")
-                    .opacity(0.85)
-                    .edgesIgnoringSafeArea(.all)
+                Color.hexQuizram54("E5AD7C")
+                    .opacity(0.65)
+                .edgesIgnoringSafeArea(.all)
             }
             .cornerRadius(41)
             .padding(.bottom, isSE ? -50: -60)

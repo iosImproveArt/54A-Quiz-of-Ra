@@ -132,586 +132,550 @@ struct Tab4QuestionQuizram54 {
     
     static let list: [Tab4QuestionQuizram54] = [
         Tab4QuestionQuizram54(
-            question: "What is the tallest mountain in the world?",
-            hint1: "It is located in the Himalayas.",
-            hint2: "Its name starts with 'E'.",
-            answer: "Everest"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which planet is known as the 'Blue Planet'?",
-            hint1: "It is the third planet from the Sun.",
-            hint2: "It is where we live.",
-            answer: "Earth"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the primary language spoken in Brazil?",
-            hint1: "It is not Spanish.",
+            question: "What is the capital city of France?",
+            hint1: "It is known as the 'City of Light'.",
             hint2: "Its name starts with 'P'.",
-            answer: "Portuguese"
+            answer: "Paris"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who wrote 'Romeo and Juliet'?",
+            hint1: "This author is a famous English playwright.",
+            hint2: "His last name starts with 'S'.",
+            answer: "Shakespeare"
         ),
         Tab4QuestionQuizram54(
             question: "What is the chemical symbol for water?",
-            hint1: "It is made of two hydrogen atoms and one oxygen atom.",
-            hint2: "It is represented by two letters.",
+            hint1: "It consists of two elements.",
+            hint2: "Its formula starts with 'H'.",
             answer: "H2O"
         ),
         Tab4QuestionQuizram54(
+            question: "Which planet is known as the Red Planet?",
+            hint1: "It is the fourth planet from the Sun.",
+            hint2: "Its name starts with 'M'.",
+            answer: "Mars"
+        ),
+        Tab4QuestionQuizram54(
             question: "What is the largest ocean on Earth?",
-            hint1: "It covers about 30% of the Earth's surface.",
+            hint1: "It covers more than 30% of the Earth's surface.",
             hint2: "Its name starts with 'P'.",
             answer: "Pacific Ocean"
         ),
         Tab4QuestionQuizram54(
-            question: "Which country is known as the Land of the Rising Sun?",
-            hint1: "It is an island nation in Asia.",
-            hint2: "Its name starts with 'J'.",
-            answer: "Japan"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the name of the process by which plants make their food?",
-            hint1: "It requires sunlight and chlorophyll.",
-            hint2: "Its name starts with 'P'.",
-            answer: "Photosynthesis"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the name of the largest mammal in the world?",
-            hint1: "It lives in the ocean.",
-            hint2: "Its name starts with 'B'.",
-            answer: "Blue Whale"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which element has the chemical symbol 'O'?",
-            hint1: "It is essential for breathing.",
-            hint2: "Its name starts with 'O'.",
-            answer: "Oxygen"
+            question: "What is the largest animal on Earth?",
+            hint1: "It is a marine mammal.",
+            hint2: "Its name includes 'blue'.",
+            answer: "Blue whale"
         ),
         Tab4QuestionQuizram54(
             question: "What is the smallest country in the world?",
-            hint1: "It is located in Rome, Italy.",
-            hint2: "Its name starts with 'V'.",
+            hint1: "It is located in Europe.",
+            hint2: "It is an independent city-state within Rome.",
             answer: "Vatican City"
         ),
         Tab4QuestionQuizram54(
-            question: "What is the currency of the United Kingdom?",
-            hint1: "It is also known as 'pound sterling'.",
-            hint2: "Its name starts with 'P'.",
-            answer: "Pound"
+            question: "What is the speed of light?",
+            hint1: "It is approximately 300,000 km/s.",
+            hint2: "It starts with '3'.",
+            answer: "299,792 km/s"
         ),
         Tab4QuestionQuizram54(
             question: "Who painted the Mona Lisa?",
-            hint1: "He was an Italian artist from the Renaissance.",
+            hint1: "He was an Italian artist and inventor.",
             hint2: "His name starts with 'L'.",
             answer: "Leonardo da Vinci"
         ),
         Tab4QuestionQuizram54(
-            question: "What is the hardest natural substance on Earth?",
+            question: "What is the hardest natural substance?",
             hint1: "It is often used in jewelry.",
             hint2: "Its name starts with 'D'.",
             answer: "Diamond"
         ),
         Tab4QuestionQuizram54(
-            question: "Which planet is closest to the Sun?",
-            hint1: "It is also the smallest planet in the solar system.",
-            hint2: "Its name starts with 'M'.",
-            answer: "Mercury"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the name of the largest rainforest in the world?",
-            hint1: "It is located in South America.",
-            hint2: "Its name starts with 'A'.",
-            answer: "Amazon Rainforest"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which metal is used to make coins and has the chemical symbol 'Ag'?",
-            hint1: "It is often associated with jewelry.",
-            hint2: "Its name starts with 'S'.",
-            answer: "Silver"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the main ingredient in guacamole?",
-            hint1: "It is a green fruit.",
-            hint2: "Its name starts with 'A'.",
-            answer: "Avocado"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the name of the star at the center of our solar system?",
-            hint1: "It provides light and heat to Earth.",
-            hint2: "Its name starts with 'S'.",
-            answer: "Sun"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the term for animals that eat only plants?",
-            hint1: "It starts with 'H'.",
-            hint2: "It is the opposite of 'carnivore'.",
-            answer: "Herbivore"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which country has the Eiffel Tower?",
-            hint1: "It is located in Europe.",
-            hint2: "Its name starts with 'F'.",
-            answer: "France"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the largest planet in our solar system?",
-            hint1: "It is known for its Great Red Spot.",
-            hint2: "Its name starts with 'J'.",
-            answer: "Jupiter"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the chemical symbol for gold?",
-            hint1: "It is a two-letter abbreviation.",
-            hint2: "Its name starts with 'A'.",
-            answer: "Au"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Who wrote 'Romeo and Juliet'?",
-            hint1: "He was an English playwright.",
-            hint2: "His name starts with 'S'.",
-            answer: "William Shakespeare"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the capital of Italy?",
-            hint1: "It is home to the Colosseum.",
-            hint2: "Its name starts with 'R'.",
-            answer: "Rome"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the boiling point of water in Celsius?",
-            hint1: "It is a round number.",
-            hint2: "It is 100 degrees.",
-            answer: "100"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which element is represented by the symbol 'Fe'?",
-            hint1: "It is commonly used in construction.",
-            hint2: "Its name starts with 'I'.",
-            answer: "Iron"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the term for an animal that sleeps during the day and is active at night?",
-            hint1: "It starts with 'N'.",
-            hint2: "It is the opposite of 'diurnal'.",
-            answer: "Nocturnal"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which continent is the Sahara Desert located on?",
-            hint1: "It is the second-largest continent.",
-            hint2: "Its name starts with 'A'.",
-            answer: "Africa"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Who was the first president of the United States?",
-            hint1: "He is featured on the US $1 bill.",
-            hint2: "His name starts with 'G'.",
-            answer: "George Washington"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the largest internal organ in the human body?",
-            hint1: "It is essential for detoxification.",
-            hint2: "Its name starts with 'L'.",
-            answer: "Liver"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the square root of 64?",
-            hint1: "It is a whole number.",
-            hint2: "It is 8.",
-            answer: "8"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which country is famous for its maple syrup?",
-            hint1: "Its flag features a red maple leaf.",
-            hint2: "Its name starts with 'C'.",
-            answer: "Canada"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the main ingredient in sushi?",
-            hint1: "It is a type of grain.",
-            hint2: "Its name starts with 'R'.",
-            answer: "Rice"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which organ pumps blood throughout the human body?",
-            hint1: "It is located in the chest.",
-            hint2: "Its name starts with 'H'.",
-            answer: "Heart"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which galaxy is Earth located in?",
-            hint1: "It is named after a type of candy bar.",
-            hint2: "Its name starts with 'M'.",
-            answer: "Milky Way"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the smallest unit of life?",
-            hint1: "It is a fundamental building block of organisms.",
-            hint2: "Its name starts with 'C'.",
-            answer: "Cell"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which bird is often associated with delivering babies?",
-            hint1: "It has long legs and a long beak.",
-            hint2: "Its name starts with 'S'.",
-            answer: "Stork"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the main gas found in Earth's atmosphere?",
-            hint1: "It makes up about 78% of the atmosphere.",
-            hint2: "Its name starts with 'N'.",
-            answer: "Nitrogen"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which instrument is used to measure temperature?",
-            hint1: "It is commonly found in homes.",
-            hint2: "Its name starts with 'T'.",
-            answer: "Thermometer"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the primary color of a ripe banana?",
-            hint1: "It is a bright, warm color.",
-            hint2: "Its name starts with 'Y'.",
-            answer: "Yellow"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the currency of Japan?",
-            hint1: "It is used for transactions in Tokyo.",
-            hint2: "Its name starts with 'Y'.",
-            answer: "Yen"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the term for water changing into vapor?",
-            hint1: "It occurs when water is heated.",
-            hint2: "Its name starts with 'E'.",
-            answer: "Evaporation"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which metal is liquid at room temperature?",
-            hint1: "It is often used in thermometers.",
-            hint2: "Its name starts with 'M'.",
-            answer: "Mercury"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the largest island in the world?",
-            hint1: "It is located between the Arctic and Atlantic oceans.",
-            hint2: "Its name starts with 'G'.",
-            answer: "Greenland"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which animal is known as the 'King of the Jungle'?",
-            hint1: "It is a large cat.",
-            hint2: "Its name starts with 'L'.",
-            answer: "Lion"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What do bees collect from flowers?",
-            hint1: "It is used to make honey.",
-            hint2: "Its name starts with 'N'.",
-            answer: "Nectar"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the capital of Australia?",
-            hint1: "It is not Sydney or Melbourne.",
-            hint2: "Its name starts with 'C'.",
-            answer: "Canberra"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the primary ingredient in chocolate?",
-            hint1: "It comes from a bean.",
-            hint2: "Its name starts with 'C'.",
-            answer: "Cocoa"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the smallest prime number?",
-            hint1: "It is an even number.",
-            hint2: "It is 2.",
-            answer: "2"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the term for animals that give birth to live young?",
-            hint1: "Humans are included in this group.",
-            hint2: "Its name starts with 'M'.",
-            answer: "Mammals"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the term for a baby frog?",
-            hint1: "It is aquatic and has a tail.",
-            hint2: "Its name starts with 'T'.",
-            answer: "Tadpole"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the hardest rock?",
-            hint1: "It is often used in cutting tools.",
-            hint2: "Its name starts with 'D'.",
-            answer: "Diamond"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What does a thermometer measure?",
-            hint1: "It is related to heat.",
-            hint2: "Its name starts with 'T'.",
-            answer: "Temperature"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the capital city of Canada?",
-            hint1: "It is not Toronto or Vancouver.",
-            hint2: "Its name starts with 'O'.",
-            answer: "Ottawa"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the largest bone in the human body?",
-            hint1: "It is located in the leg.",
-            hint2: "Its name starts with 'F'.",
-            answer: "Femur"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the name of the closest star to Earth?",
-            hint1: "It provides light and warmth.",
-            hint2: "Its name starts with 'S'.",
-            answer: "Sun"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the process by which plants make food?",
-            hint1: "It involves sunlight and chlorophyll.",
-            hint2: "Its name starts with 'P'.",
-            answer: "Photosynthesis"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which country is famous for the Eiffel Tower?",
-            hint1: "It is located in Europe.",
-            hint2: "Its name starts with 'F'.",
-            answer: "France"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the main component of the Sun?",
+            question: "Which element has the atomic number 1?",
             hint1: "It is the lightest element.",
             hint2: "Its name starts with 'H'.",
             answer: "Hydrogen"
         ),
         Tab4QuestionQuizram54(
-            question: "Which bird is a universal symbol of peace?",
-            hint1: "It is often depicted carrying an olive branch.",
-            hint2: "Its name starts with 'D'.",
-            answer: "Dove"
+            question: "Who was the first man to walk on the moon?",
+            hint1: "It happened in 1969.",
+            hint2: "His last name starts with 'A'.",
+            answer: "Neil Armstrong"
         ),
         Tab4QuestionQuizram54(
-            question: "What is the most common blood type in the world?",
-            hint1: "It is the most universally accepted for blood transfusions.",
-            hint2: "Its name starts with 'O'.",
-            answer: "O positive"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the chemical formula for water?",
-            hint1: "It consists of two elements.",
-            hint2: "Its name starts with 'H'.",
-            answer: "H2O"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the capital of Egypt?",
-            hint1: "It is home to the Great Pyramids.",
-            hint2: "Its name starts with 'C'.",
-            answer: "Cairo"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which country is known for its pyramids and ancient civilization?",
-            hint1: "It is located in North Africa.",
-            hint2: "Its name starts with 'E'.",
-            answer: "Egypt"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which continent is known for having the Sahara Desert?",
-            hint1: "It is the second-largest continent in terms of land area.",
-            hint2: "Its name starts with 'A'.",
-            answer: "Africa"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the chemical symbol for oxygen?",
-            hint1: "It is essential for respiration.",
-            hint2: "Its name starts with 'O'.",
-            answer: "O"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which animal is known for its black and white stripes?",
-            hint1: "It is often found in Africa.",
-            hint2: "Its name starts with 'Z'.",
-            answer: "Zebra"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the capital of Spain?",
-            hint1: "It is known for its bullfighting culture.",
-            hint2: "Its name starts with 'M'.",
-            answer: "Madrid"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the chemical symbol for sodium?",
-            hint1: "It is commonly found in table salt.",
-            hint2: "Its name starts with 'N'.",
-            answer: "Na"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the largest mammal on Earth?",
-            hint1: "It is a type of whale.",
-            hint2: "Its name starts with 'B'.",
-            answer: "Blue whale"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which country invented the pizza?",
-            hint1: "It is located in Europe.",
-            hint2: "Its name starts with 'I'.",
-            answer: "Italy"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the largest volcano in the world?",
-            hint1: "It is located in Hawaii.",
-            hint2: "Its name starts with 'M'.",
-            answer: "Mauna Loa"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which planet is closest to the Sun?",
-            hint1: "It is the smallest planet in our solar system.",
-            hint2: "Its name starts with 'M'.",
-            answer: "Mercury"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the process by which plants take in carbon dioxide and release oxygen?",
-            hint1: "It is essential for life on Earth.",
-            hint2: "Its name starts with 'P'.",
-            answer: "Photosynthesis"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which element is necessary for human life and is commonly found in the air?",
-            hint1: "It is essential for breathing.",
-            hint2: "Its name starts with 'O'.",
-            answer: "Oxygen"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the capital of France?",
-            hint1: "It is home to the Eiffel Tower.",
-            hint2: "Its name starts with 'P'.",
-            answer: "Paris"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the largest land animal?",
-            hint1: "It is known for its long trunk.",
-            hint2: "Its name starts with 'E'.",
-            answer: "Elephant"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which city is famous for its opera house and harbor?",
-            hint1: "It is located in Australia.",
+            question: "What is the largest desert in the world?",
+            hint1: "It is located in Africa.",
             hint2: "Its name starts with 'S'.",
-            answer: "Sydney"
+            answer: "Sahara Desert"
         ),
         Tab4QuestionQuizram54(
-            question: "What is the capital of Germany?",
-            hint1: "It is known for the Brandenburg Gate.",
-            hint2: "Its name starts with 'B'.",
-            answer: "Berlin"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which planet is known as the 'Red Planet'?",
-            hint1: "It is named after the Roman god of war.",
-            hint2: "Its name starts with 'M'.",
-            answer: "Mars"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the longest river in the world?",
-            hint1: "It flows through northeastern Africa.",
-            hint2: "Its name starts with 'N'.",
-            answer: "Nile"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which element is most abundant in the Earth's crust?",
-            hint1: "It is used to make glass and ceramics.",
-            hint2: "Its name starts with 'S'.",
-            answer: "Silicon"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the largest organ in the human body?",
-            hint1: "It protects internal organs.",
-            hint2: "Its name starts with 'S'.",
-            answer: "Skin"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the capital city of Italy?",
-            hint1: "It is home to the Colosseum and the Vatican.",
-            hint2: "Its name starts with 'R'.",
-            answer: "Rome"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the primary function of red blood cells?",
-            hint1: "They transport oxygen.",
-            hint2: "Their name starts with 'R'.",
-            answer: "Red blood cells"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the process by which plants lose water through their leaves?",
-            hint1: "It involves the evaporation of water.",
+            question: "What is the capital city of Japan?",
+            hint1: "It is the largest city in the country.",
             hint2: "Its name starts with 'T'.",
-            answer: "Transpiration"
+            answer: "Tokyo"
         ),
         Tab4QuestionQuizram54(
-            question: "Which bird is known for its colorful feathers and ability to mimic sounds?",
-            hint1: "It is often kept as a pet.",
-            hint2: "Its name starts with 'P'.",
-            answer: "Parrot"
+            question: "What is the freezing point of water in Celsius?",
+            hint1: "It is below room temperature.",
+            hint2: "The number is 0.",
+            answer: "0 degrees"
         ),
         Tab4QuestionQuizram54(
-            question: "Which country is the birthplace of the famous philosopher Socrates?",
-            hint1: "It is located in southern Europe.",
-            hint2: "Its name starts with 'G'.",
-            answer: "Greece"
+            question: "Which planet is the hottest in the solar system?",
+            hint1: "It is the second planet from the Sun.",
+            hint2: "Its name starts with 'V'.",
+            answer: "Venus"
         ),
         Tab4QuestionQuizram54(
-            question: "What is the capital of Canada?",
-            hint1: "It is located in the province of Ontario.",
-            hint2: "Its name starts with 'O'.",
-            answer: "Ottawa"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the only continent that is also a country?",
-            hint1: "It is surrounded by the Southern Ocean.",
+            question: "What is the name of the longest river in the world?",
+            hint1: "It flows through South America.",
             hint2: "Its name starts with 'A'.",
-            answer: "Australia"
+            answer: "Amazon River"
         ),
         Tab4QuestionQuizram54(
-            question: "What is the most abundant gas in the Earth's atmosphere?",
+            question: "What is the main ingredient in sushi?",
+            hint1: "It is a type of grain.",
+            hint2: "It starts with 'R'.",
+            answer: "Rice"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who discovered gravity?",
+            hint1: "He was an English mathematician and physicist.",
+            hint2: "His last name starts with 'N'.",
+            answer: "Isaac Newton"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the chemical symbol for gold?",
+            hint1: "It has two letters.",
+            hint2: "It starts with 'A'.",
+            answer: "Au"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the most spoken language in the world?",
+            hint1: "It is primarily spoken in China.",
+            hint2: "Its name starts with 'M'.",
+            answer: "Mandarin"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the tallest tree species in the world?",
+            hint1: "It is found in California, USA.",
+            hint2: "Its name starts with 'R'.",
+            answer: "Redwood"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who is the author of 'Harry Potter'?",
+            hint1: "She is a British author.",
+            hint2: "Her last name starts with 'R'.",
+            answer: "J.K. Rowling"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which country has the most population?",
+            hint1: "It is located in Asia.",
+            hint2: "Its name starts with 'C'.",
+            answer: "China"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the largest continent?",
+            hint1: "It contains 48 countries.",
+            hint2: "Its name starts with 'A'.",
+            answer: "Asia"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the primary gas in Earth's atmosphere?",
             hint1: "It makes up about 78% of the atmosphere.",
             hint2: "Its name starts with 'N'.",
             answer: "Nitrogen"
         ),
         Tab4QuestionQuizram54(
-            question: "Which animal is known for its ability to change color?",
-            hint1: "It is often found in tropical regions.",
-            hint2: "Its name starts with 'C'.",
-            answer: "Chameleon"
+            question: "Who was the first President of the United States?",
+            hint1: "He is known as the 'Father of His Country'.",
+            hint2: "His last name starts with 'W'.",
+            answer: "George Washington"
         ),
         Tab4QuestionQuizram54(
-            question: "What is the smallest country in the world by land area?",
-            hint1: "It is located in Europe.",
-            hint2: "Its name starts with 'V'.",
-            answer: "Vatican City"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which fruit is known for its high vitamin C content?",
-            hint1: "It is often associated with preventing scurvy.",
-            hint2: "Its name starts with 'O'.",
-            answer: "Orange"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which animal is known for its slow movement and tree-dwelling habits?",
-            hint1: "It is often found in Central and South America.",
-            hint2: "Its name starts with 'S'.",
-            answer: "Sloth"
-        ),
-        Tab4QuestionQuizram54(
-            question: "What is the primary function of the human lungs?",
-            hint1: "They are involved in gas exchange.",
-            hint2: "Their name starts with 'L'.",
-            answer: "Lungs"
-        ),
-        Tab4QuestionQuizram54(
-            question: "Which city is known for its iconic 'Big Ben' clock tower?",
-            hint1: "It is located in the United Kingdom.",
+            question: "Which animal is known as the 'King of the Jungle'?",
+            hint1: "It is a big cat.",
             hint2: "Its name starts with 'L'.",
-            answer: "London"
+            answer: "Lion"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the boiling point of water in Celsius?",
+            hint1: "It is a three-digit number.",
+            hint2: "The number is 100.",
+            answer: "100 degrees"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the smallest unit of matter?",
+            hint1: "It is made up of protons, neutrons, and electrons.",
+            hint2: "Its name starts with 'A'.",
+            answer: "Atom"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the national flower of Japan?",
+            hint1: "It is often associated with spring.",
+            hint2: "Its name starts with 'C'.",
+            answer: "Cherry blossom"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which country is famous for its maple syrup?",
+            hint1: "It is located in North America.",
+            hint2: "Its name starts with 'C'.",
+            answer: "Canada"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who invented the telephone?",
+            hint1: "He was a Scottish-born inventor.",
+            hint2: "His last name starts with 'B'.",
+            answer: "Alexander Graham Bell"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the name of the largest mammal that lives in water?",
+            hint1: "Its name includes 'whale'.",
+            hint2: "It starts with 'B'.",
+            answer: "Blue whale"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which planet has the most moons?",
+            hint1: "It is the largest planet in the solar system.",
+            hint2: "Its name starts with 'J'.",
+            answer: "Jupiter"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the name of the Greek god of the sea?",
+            hint1: "He is one of the twelve Olympian deities.",
+            hint2: "His name starts with 'P'.",
+            answer: "Poseidon"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the name of the smallest bone in the human body?",
+            hint1: "It is located in the ear.",
+            hint2: "Its name starts with 'S'.",
+            answer: "Stapes"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which country is known as the 'Land of the Rising Sun'?",
+            hint1: "It is an island nation in Asia.",
+            hint2: "Its name starts with 'J'.",
+            answer: "Japan"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the chemical symbol for sodium?",
+            hint1: "It has two letters.",
+            hint2: "It starts with 'N'.",
+            answer: "Na"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who is known as the 'Father of Computers'?",
+            hint1: "He was an English mathematician and inventor.",
+            hint2: "His last name starts with 'B'.",
+            answer: "Charles Babbage"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which bird is known for its ability to mimic sounds?",
+            hint1: "It is often kept as a pet.",
+            hint2: "Its name starts with 'P'.",
+            answer: "Parrot"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the largest land carnivore?",
+            hint1: "It is a type of bear.",
+            hint2: "Its name starts with 'P'.",
+            answer: "Polar bear"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the hardest known material on Earth?",
+            hint1: "It is often used in jewelry.",
+            hint2: "Its name starts with 'D'.",
+            answer: "Diamond"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which city hosted the first modern Olympic Games?",
+            hint1: "It is the capital of Greece.",
+            hint2: "Its name starts with 'A'.",
+            answer: "Athens"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the primary ingredient in guacamole?",
+            hint1: "It is a green fruit.",
+            hint2: "Its name starts with 'A'.",
+            answer: "Avocado"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the currency used in Japan?",
+            hint1: "Its name has three letters.",
+            hint2: "It starts with 'Y'.",
+            answer: "Yen"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the fastest land animal?",
+            hint1: "It can reach speeds of up to 75 mph.",
+            hint2: "Its name starts with 'C'.",
+            answer: "Cheetah"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the largest island in the world?",
+            hint1: "It is part of the Kingdom of Denmark.",
+            hint2: "Its name starts with 'G'.",
+            answer: "Greenland"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who developed the theory of relativity?",
+            hint1: "He was a famous physicist.",
+            hint2: "His last name starts with 'E'.",
+            answer: "Albert Einstein"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which gas do plants absorb from the atmosphere during photosynthesis?",
+            hint1: "It is a greenhouse gas.",
+            hint2: "Its chemical formula is CO2.",
+            answer: "Carbon dioxide"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the longest bone in the human body?",
+            hint1: "It is located in the leg.",
+            hint2: "Its name starts with 'F'.",
+            answer: "Femur"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which planet is known for its rings?",
+            hint1: "It is the sixth planet from the Sun.",
+            hint2: "Its name starts with 'S'.",
+            answer: "Saturn"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the square root of 64?",
+            hint1: "It is a single-digit number.",
+            hint2: "The answer is 8.",
+            answer: "8"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who painted 'Starry Night'?",
+            hint1: "He was a Dutch post-impressionist artist.",
+            hint2: "His last name starts with 'V'.",
+            answer: "Vincent van Gogh"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which country is home to the Great Barrier Reef?",
+            hint1: "It is located in the Southern Hemisphere.",
+            hint2: "Its name starts with 'A'.",
+            answer: "Australia"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the main ingredient in bread?",
+            hint1: "It is made from grains.",
+            hint2: "Its name starts with 'F'.",
+            answer: "Flour"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which organ is responsible for pumping blood through the body?",
+            hint1: "It is part of the circulatory system.",
+            hint2: "Its name starts with 'H'.",
+            answer: "Heart"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the most abundant element in the universe?",
+            hint1: "It is the lightest element.",
+            hint2: "Its name starts with 'H'.",
+            answer: "Hydrogen"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who wrote 'The Odyssey'?",
+            hint1: "He was an ancient Greek poet.",
+            hint2: "His name starts with 'H'.",
+            answer: "Homer"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the official language of Brazil?",
+            hint1: "It is not Spanish.",
+            hint2: "Its name starts with 'P'.",
+            answer: "Portuguese"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the most widely consumed beverage in the world?",
+            hint1: "It is made by steeping leaves in hot water.",
+            hint2: "Its name starts with 'T'.",
+            answer: "Tea"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which country is famous for its tulips and windmills?",
+            hint1: "It is located in Europe.",
+            hint2: "Its name starts with 'N'.",
+            answer: "Netherlands"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the capital city of Canada?",
+            hint1: "It is not Toronto.",
+            hint2: "Its name starts with 'O'.",
+            answer: "Ottawa"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which famous ship sank after hitting an iceberg in 1912?",
+            hint1: "It was called 'unsinkable.'",
+            hint2: "Its name starts with 'T'.",
+            answer: "Titanic"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the smallest planet in our solar system?",
+            hint1: "It is closest to the Sun.",
+            hint2: "Its name starts with 'M'.",
+            answer: "Mercury"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the capital city of Italy?",
+            hint1: "It is home to the Colosseum.",
+            hint2: "Its name starts with 'R'.",
+            answer: "Rome"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the name of the fairy in 'Peter Pan'?",
+            hint1: "She is small and has wings.",
+            hint2: "Her name starts with 'T'.",
+            answer: "Tinker Bell"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the process by which plants make food using sunlight?",
+            hint1: "It occurs in chloroplasts.",
+            hint2: "It starts with 'P'.",
+            answer: "Photosynthesis"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which instrument has 88 keys?",
+            hint1: "It is often found in orchestras and households.",
+            hint2: "Its name starts with 'P'.",
+            answer: "Piano"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which country is known for the Eiffel Tower?",
+            hint1: "It is located in Europe.",
+            hint2: "Its name starts with 'F'.",
+            answer: "France"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the name of the process where water turns into vapor?",
+            hint1: "It happens when water is heated.",
+            hint2: "It starts with 'E'.",
+            answer: "Evaporation"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the main ingredient in hummus?",
+            hint1: "It is a type of legume.",
+            hint2: "Its name starts with 'C'.",
+            answer: "Chickpeas"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who discovered penicillin?",
+            hint1: "He was a Scottish scientist.",
+            hint2: "His last name starts with 'F'.",
+            answer: "Alexander Fleming"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which element has the chemical symbol 'O'?",
+            hint1: "It is essential for respiration.",
+            hint2: "Its name starts with 'O'.",
+            answer: "Oxygen"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the smallest planet in our solar system?",
+            hint1: "It is closest to the Sun.",
+            hint2: "Its name starts with 'M'.",
+            answer: "Mercury"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the capital city of Germany?",
+            hint1: "It is known for its Brandenburg Gate.",
+            hint2: "Its name starts with 'B'.",
+            answer: "Berlin"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which instrument is often associated with jazz music?",
+            hint1: "It is a brass instrument.",
+            hint2: "Its name starts with 'S'.",
+            answer: "Saxophone"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the name of the ship that brought the Pilgrims to America?",
+            hint1: "It set sail in 1620.",
+            hint2: "Its name starts with 'M'.",
+            answer: "Mayflower"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the name of the largest land animal?",
+            hint1: "It has a trunk.",
+            hint2: "Its name starts with 'E'.",
+            answer: "Elephant"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who is the Greek goddess of wisdom?",
+            hint1: "Her name starts with 'A'.",
+            hint2: "She is often associated with owls.",
+            answer: "Athena"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the term for animals that eat only plants?",
+            hint1: "It starts with 'H'.",
+            hint2: "It is the opposite of carnivore.",
+            answer: "Herbivore"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the longest river in Africa?",
+            hint1: "It flows northward.",
+            hint2: "Its name starts with 'N'.",
+            answer: "Nile"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which metal is liquid at room temperature?",
+            hint1: "Its chemical symbol is Hg.",
+            hint2: "Its name starts with 'M'.",
+            answer: "Mercury"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the largest star in our solar system?",
+            hint1: "It is at the center of our solar system.",
+            hint2: "Its name starts with 'S'.",
+            answer: "Sun"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which sport is known as the 'king of sports'?",
+            hint1: "It is played with a round ball.",
+            hint2: "Its name starts with 'F'.",
+            answer: "Football (Soccer)"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the national dish of Italy?",
+            hint1: "It often contains tomato sauce and cheese.",
+            hint2: "Its name starts with 'P'.",
+            answer: "Pizza"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which planet is known as Earth's twin due to its size?",
+            hint1: "It is the second planet from the Sun.",
+            hint2: "Its name starts with 'V'.",
+            answer: "Venus"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Who wrote 'Pride and Prejudice'?",
+            hint1: "She was an English novelist.",
+            hint2: "Her last name starts with 'A'.",
+            answer: "Jane Austen"
+        ),
+        Tab4QuestionQuizram54(
+            question: "What is the hardest rock on Earth?",
+            hint1: "It is often used in cutting tools.",
+            hint2: "Its name starts with 'D'.",
+            answer: "Diamond"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which U.S. state is known as the 'Sunshine State'?",
+            hint1: "It is famous for its beaches.",
+            hint2: "Its name starts with 'F'.",
+            answer: "Florida"
+        ),
+        Tab4QuestionQuizram54(
+            question: "Which organ in the human body filters blood?",
+            hint1: "You have two of them.",
+            hint2: "Their name starts with 'K'.",
+            answer: "Kidneys"
         )
     ]
 }
