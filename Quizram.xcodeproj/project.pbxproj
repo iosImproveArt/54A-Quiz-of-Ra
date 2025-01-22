@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F631EF0D2D4178F700B2223A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF0A2D4178F700B2223A /* ContentView.swift */; };
+		F631EF0E2D4178F700B2223A /* QuizramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF0B2D4178F700B2223A /* QuizramApp.swift */; };
+		F631EF0F2D4178F700B2223A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F631EF072D4178F700B2223A /* Preview Assets.xcassets */; };
+		F631EF102D4178F700B2223A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F631EF092D4178F700B2223A /* Assets.xcassets */; };
+		F631EF222D41798900B2223A /* QuestionViewModel Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF182D41798900B2223A /* QuestionViewModel Quizram54.swift */; };
+		F631EF232D41798900B2223A /* ImagePicker Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF1F2D41798900B2223A /* ImagePicker Quizram54.swift */; };
+		F631EF242D41798900B2223A /* ProfileView Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF202D41798900B2223A /* ProfileView Quizram54.swift */; };
+		F631EF252D41798900B2223A /* WebView Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF162D41798900B2223A /* WebView Quizram54.swift */; };
+		F631EF262D41798900B2223A /* Extensions Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF1C2D41798900B2223A /* Extensions Quizram54.swift */; };
+		F631EF272D41798900B2223A /* QuestionPickView Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF1A2D41798900B2223A /* QuestionPickView Quizram54.swift */; };
+		F631EF282D41798900B2223A /* PrivacyView Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF152D41798900B2223A /* PrivacyView Quizram54.swift */; };
+		F631EF292D41798900B2223A /* QuestionView Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF192D41798900B2223A /* QuestionView Quizram54.swift */; };
+		F631EF2A2D41798900B2223A /* LoadingView Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF132D41798900B2223A /* LoadingView Quizram54.swift */; };
+		F631EF2B2D41798900B2223A /* FactsView Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF1D2D41798900B2223A /* FactsView Quizram54.swift */; };
+		F631EF2C2D41798900B2223A /* QuestionsView Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF122D41798900B2223A /* QuestionsView Quizram54.swift */; };
+		F631EF2D2D41798900B2223A /* NotificationCenter Quizram54.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EF1E2D41798900B2223A /* NotificationCenter Quizram54.swift */; };
+		F631EF2E2D41798900B2223A /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = F631EF142D41798900B2223A /* privacy.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F631EEF62D4178F100B2223A /* Quizram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F631EF072D4178F700B2223A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F631EF092D4178F700B2223A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F631EF0A2D4178F700B2223A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F631EF0B2D4178F700B2223A /* QuizramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizramApp.swift; sourceTree = "<group>"; };
+		F631EF112D41795200B2223A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F631EF122D41798900B2223A /* QuestionsView Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionsView Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF132D41798900B2223A /* LoadingView Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingView Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF142D41798900B2223A /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		F631EF152D41798900B2223A /* PrivacyView Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrivacyView Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF162D41798900B2223A /* WebView Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebView Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF182D41798900B2223A /* QuestionViewModel Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionViewModel Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF192D41798900B2223A /* QuestionView Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionView Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF1A2D41798900B2223A /* QuestionPickView Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionPickView Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF1C2D41798900B2223A /* Extensions Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF1D2D41798900B2223A /* FactsView Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FactsView Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF1E2D41798900B2223A /* NotificationCenter Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF1F2D41798900B2223A /* ImagePicker Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagePicker Quizram54.swift"; sourceTree = "<group>"; };
+		F631EF202D41798900B2223A /* ProfileView Quizram54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileView Quizram54.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F631EEF32D4178F100B2223A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F631EEED2D4178F100B2223A = {
+			isa = PBXGroup;
+			children = (
+				F631EF0C2D4178F700B2223A /* Quizram */,
+				F631EEF72D4178F100B2223A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F631EEF72D4178F100B2223A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F631EEF62D4178F100B2223A /* Quizram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F631EF082D4178F700B2223A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F631EF072D4178F700B2223A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F631EF0C2D4178F700B2223A /* Quizram */ = {
+			isa = PBXGroup;
+			children = (
+				F631EF0B2D4178F700B2223A /* QuizramApp.swift */,
+				F631EF112D41795200B2223A /* Info.plist */,
+				F631EF082D4178F700B2223A /* Preview Content */,
+				F631EF092D4178F700B2223A /* Assets.xcassets */,
+				F631EF0A2D4178F700B2223A /* ContentView.swift */,
+				F631EF122D41798900B2223A /* QuestionsView Quizram54.swift */,
+				F631EF172D41798900B2223A /* Loading Quizram54 */,
+				F631EF1B2D41798900B2223A /* Questions Quizram54 */,
+				F631EF1C2D41798900B2223A /* Extensions Quizram54.swift */,
+				F631EF1D2D41798900B2223A /* FactsView Quizram54.swift */,
+				F631EF1E2D41798900B2223A /* NotificationCenter Quizram54.swift */,
+				F631EF212D41798900B2223A /* Profile Quizram54 */,
+			);
+			path = Quizram;
+			sourceTree = "<group>";
+		};
+		F631EF172D41798900B2223A /* Loading Quizram54 */ = {
+			isa = PBXGroup;
+			children = (
+				F631EF132D41798900B2223A /* LoadingView Quizram54.swift */,
+				F631EF142D41798900B2223A /* privacy.html */,
+				F631EF152D41798900B2223A /* PrivacyView Quizram54.swift */,
+				F631EF162D41798900B2223A /* WebView Quizram54.swift */,
+			);
+			path = "Loading Quizram54";
+			sourceTree = "<group>";
+		};
+		F631EF1B2D41798900B2223A /* Questions Quizram54 */ = {
+			isa = PBXGroup;
+			children = (
+				F631EF182D41798900B2223A /* QuestionViewModel Quizram54.swift */,
+				F631EF192D41798900B2223A /* QuestionView Quizram54.swift */,
+				F631EF1A2D41798900B2223A /* QuestionPickView Quizram54.swift */,
+			);
+			path = "Questions Quizram54";
+			sourceTree = "<group>";
+		};
+		F631EF212D41798900B2223A /* Profile Quizram54 */ = {
+			isa = PBXGroup;
+			children = (
+				F631EF1F2D41798900B2223A /* ImagePicker Quizram54.swift */,
+				F631EF202D41798900B2223A /* ProfileView Quizram54.swift */,
+			);
+			path = "Profile Quizram54";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F631EEF52D4178F100B2223A /* Quizram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F631EF042D4178F200B2223A /* Build configuration list for PBXNativeTarget "Quizram" */;
+			buildPhases = (
+				F631EEF22D4178F100B2223A /* Sources */,
+				F631EEF32D4178F100B2223A /* Frameworks */,
+				F631EEF42D4178F100B2223A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quizram;
+			packageProductDependencies = (
+			);
+			productName = Quizram;
+			productReference = F631EEF62D4178F100B2223A /* Quizram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F631EEEE2D4178F100B2223A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F631EEF52D4178F100B2223A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F631EEF12D4178F100B2223A /* Build configuration list for PBXProject "Quizram" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F631EEED2D4178F100B2223A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F631EEF72D4178F100B2223A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F631EEF52D4178F100B2223A /* Quizram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F631EEF42D4178F100B2223A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F631EF0F2D4178F700B2223A /* Preview Assets.xcassets in Resources */,
+				F631EF2E2D41798900B2223A /* privacy.html in Resources */,
+				F631EF102D4178F700B2223A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F631EEF22D4178F100B2223A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F631EF0D2D4178F700B2223A /* ContentView.swift in Sources */,
+				F631EF222D41798900B2223A /* QuestionViewModel Quizram54.swift in Sources */,
+				F631EF232D41798900B2223A /* ImagePicker Quizram54.swift in Sources */,
+				F631EF242D41798900B2223A /* ProfileView Quizram54.swift in Sources */,
+				F631EF252D41798900B2223A /* WebView Quizram54.swift in Sources */,
+				F631EF262D41798900B2223A /* Extensions Quizram54.swift in Sources */,
+				F631EF272D41798900B2223A /* QuestionPickView Quizram54.swift in Sources */,
+				F631EF282D41798900B2223A /* PrivacyView Quizram54.swift in Sources */,
+				F631EF292D41798900B2223A /* QuestionView Quizram54.swift in Sources */,
+				F631EF2A2D41798900B2223A /* LoadingView Quizram54.swift in Sources */,
+				F631EF2B2D41798900B2223A /* FactsView Quizram54.swift in Sources */,
+				F631EF2C2D41798900B2223A /* QuestionsView Quizram54.swift in Sources */,
+				F631EF2D2D41798900B2223A /* NotificationCenter Quizram54.swift in Sources */,
+				F631EF0E2D4178F700B2223A /* QuizramApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F631EF022D4178F200B2223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F631EF032D4178F200B2223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F631EF052D4178F200B2223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quizram/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Quizram/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quiz Ram";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set a photo for your profile.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko.Quizram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F631EF062D4178F200B2223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quizram/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Quizram/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quiz Ram";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set a photo for your profile.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko.Quizram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F631EEF12D4178F100B2223A /* Build configuration list for PBXProject "Quizram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F631EF022D4178F200B2223A /* Debug */,
+				F631EF032D4178F200B2223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F631EF042D4178F200B2223A /* Build configuration list for PBXNativeTarget "Quizram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F631EF052D4178F200B2223A /* Debug */,
+				F631EF062D4178F200B2223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F631EEEE2D4178F100B2223A /* Project object */;
+}
