@@ -39,7 +39,7 @@ struct QuizramApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentViewQuizram54()
+            ContentViewQuizram54Ref()
                 .preferredColorScheme(.dark)
         }
     }

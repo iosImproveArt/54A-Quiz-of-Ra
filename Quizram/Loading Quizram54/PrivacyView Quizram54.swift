@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct PrivacyViewQuizram54: View {
+struct PrivacyViewQuizram54Ref: View {
     @AppStorage("firstInApp") var firstInApp = true
     @Environment(\.dismiss) var dismiss
     @Binding var showLoading: Bool
@@ -11,7 +11,7 @@ struct PrivacyViewQuizram54: View {
     @AppStorage("urlString") var urlString = ""
     
     var bg: Color {
-        urlString.isEmpty ? Color.hexQuizram54("#C34820"): .black
+        urlString.isEmpty ? Color.hexQuizram54Ref("#C34820"): .black
     }
     
     var isLoggedIn: Bool = true
@@ -58,7 +58,7 @@ struct PrivacyViewQuizram54: View {
                 }.frame(maxWidth: .infinity, alignment: .leading)
                     .overlay {
                         Text("Privacy Policy")
-                            .withFontQuizram54(size: 33, weight: .bold)
+                            .withFontQuizram54Ref(size: 33, weight: .bold)
                     }
                     .padding([.top, .leading])
                 
@@ -86,7 +86,7 @@ struct PrivacyViewQuizram54: View {
                             .aspectRatio(contentMode: .fit)
                             .overlay {
                                 Text("Accept")
-                                    .withFontQuizram54(size: 18, weight: .regular, color: .hexQuizram54("3B0551"))
+                                    .withFontQuizram54Ref(size: 18, weight: .regular, color: .hexQuizram54Ref("3B0551"))
                             }
                     }
                     
@@ -103,7 +103,7 @@ struct PrivacyViewQuizram54: View {
                             .aspectRatio(contentMode: .fit)
                             .overlay {
                                 Text("Reject")
-                                    .withFontQuizram54(size: 18, weight: .regular, color: .hexQuizram54("3B0551"))
+                                    .withFontQuizram54Ref(size: 18, weight: .regular, color: .hexQuizram54Ref("3B0551"))
                             }
                     }
                     
@@ -124,5 +124,5 @@ struct PrivacyViewQuizram54: View {
 }
 
 #Preview {
-    PrivacyViewQuizram54(showLoading: .constant(true), fromMainView: false)
+    PrivacyViewQuizram54Ref(showLoading: .constant(true), fromMainView: false)
 }

@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct QuestionViewQuizram54: View {
+struct QuestionViewQuizram54Ref: View {
     @Environment(\.dismiss) var dismiss
-    @StateObject var vm: QuestionViewModelQuizram54
+    @StateObject var vm: QuestionViewModelQuizram54Ref
     
     var isLoggedIn: Bool = true
     var currentTemperature: Double = 22.5
@@ -35,8 +35,8 @@ struct QuestionViewQuizram54: View {
     func qazwsxedc(range: Range<Int>) -> Int {
         return Int.random(in: range)
     }
-    init(type: GameTypeQuizram54) {
-        _vm = StateObject(wrappedValue: QuestionViewModelQuizram54(typeOfGame: type))
+    init(type: GameTypeQuizram54Ref) {
+        _vm = StateObject(wrappedValue: QuestionViewModelQuizram54Ref(typeOfGame: type))
     }
     
     var body: some View {
@@ -48,7 +48,7 @@ struct QuestionViewQuizram54: View {
             
             Spacer()
         }
-        .backgroundQuizram54(2)
+        .backgroundQuizram54Ref(2)
         .blur(radius: vm.showEnterView ? 10: 0)
         .overlay {
             enterNameView
@@ -66,7 +66,7 @@ struct QuestionViewQuizram54: View {
     
     private var enterNameView: some View {
         ZStack {
-            Color.hexQuizram54("2E2017")
+            Color.hexQuizram54Ref("2E2017")
                 .edgesIgnoringSafeArea(.all)
                 .opacity(0.76)
             
@@ -74,12 +74,12 @@ struct QuestionViewQuizram54: View {
                 Spacer()
                 
                 Text("Player 2 name")
-                    .withFontQuizram54(size: 30.57, weight: .medium)
+                    .withFontQuizram54Ref(size: 30.57, weight: .medium)
                 
                 Image("namefield.label")
                     .overlay {
                         TextField("Your Name...", text: $vm.player2)
-                            .withFontQuizram54(size: 18, weight: .semibold, color: .white)
+                            .withFontQuizram54Ref(size: 18, weight: .semibold, color: .white)
                             .padding(.horizontal)
                             .onChange(of: vm.player2) { newValue in
                                 if newValue.count > 15 {
@@ -98,7 +98,7 @@ struct QuestionViewQuizram54: View {
                     Image("button.bg")
                         .overlay {
                             Text("NEXT")
-                                .withFontQuizram54(size: 18.6, weight: .regular)
+                                .withFontQuizram54Ref(size: 18.6, weight: .regular)
                         }
                 }
                 
@@ -116,7 +116,7 @@ struct QuestionViewQuizram54: View {
                 .frame(minHeight: 150)
                 .overlay {
                     Text(vm.currentQuestion.question)
-                        .withFontQuizram54(size: isSE ? 20: 22, weight: .semibold, color: .black)
+                        .withFontQuizram54Ref(size: isSE ? 20: 22, weight: .semibold, color: .black)
                         .fixedSize(horizontal: false, vertical: true)
                         .padding(.horizontal, 40)
                         .padding(.vertical)
@@ -143,7 +143,7 @@ struct QuestionViewQuizram54: View {
                             .overlay {
                                 HStack {
                                     Text("\(Character(UnicodeScalar(97 + index)!))".uppercased())
-                                        .withFontQuizram54(size: 28, weight: .regular)
+                                        .withFontQuizram54Ref(size: 28, weight: .regular)
                                         .font(.system(size: 18, weight: .medium))
                                         .foregroundColor(.black)
                                         .padding(.leading, 15)
@@ -151,7 +151,7 @@ struct QuestionViewQuizram54: View {
                                     Spacer()
                                     
                                     Text(answer)
-                                        .withFontQuizram54(size: 18, weight: .medium, color: .black)
+                                        .withFontQuizram54Ref(size: 18, weight: .medium, color: .black)
                                         .padding(.horizontal)
                                         .padding(.leading, 17)
                                     
@@ -185,7 +185,7 @@ struct QuestionViewQuizram54: View {
                     }
                 } else {
                     Text("\(vm.questionNumber)/20")
-                        .withFontQuizram54(size: 30, weight: .semibold)
+                        .withFontQuizram54Ref(size: 30, weight: .semibold)
                 }
             }
             
@@ -193,11 +193,11 @@ struct QuestionViewQuizram54: View {
                 HStack {
                     VStack(spacing: 5) {
                         Text(vm.player1)
-                            .withFontQuizram54(size: 21, weight: .bold, color: vm.questionNumber % 2 != 0 ? .hexQuizram54("55E4A2"): .white)
+                            .withFontQuizram54Ref(size: 21, weight: .bold, color: vm.questionNumber % 2 != 0 ? .hexQuizram54Ref("55E4A2"): .white)
                         
                         HStack {
                             Text("\(vm.player1RightAnswers)/10")
-                                .withFontQuizram54(size: 21, weight: .medium)
+                                .withFontQuizram54Ref(size: 21, weight: .medium)
                             Image("corect.answer")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
@@ -209,11 +209,11 @@ struct QuestionViewQuizram54: View {
                     
                     VStack(spacing: 5) {
                         Text(vm.player2)
-                            .withFontQuizram54(size: 21, weight: .bold, color: vm.questionNumber % 2 == 0 ? .hexQuizram54("55E4A2"): .white)
+                            .withFontQuizram54Ref(size: 21, weight: .bold, color: vm.questionNumber % 2 == 0 ? .hexQuizram54Ref("55E4A2"): .white)
                         
                         HStack {
                             Text("\(vm.player2RightAnswers)/10")
-                                .withFontQuizram54(size: 21, weight: .medium)
+                                .withFontQuizram54Ref(size: 21, weight: .medium)
                             Image("corect.answer")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
@@ -227,7 +227,7 @@ struct QuestionViewQuizram54: View {
     
     private var onePlayerWinView: some View {
         ZStack {
-            Color.hexQuizram54("2E2017")
+            Color.hexQuizram54Ref("2E2017")
                 .edgesIgnoringSafeArea(.all)
                 .opacity(0.9)
             
@@ -238,12 +238,12 @@ struct QuestionViewQuizram54: View {
                         
                         HStack {
                             Text("Right answers:")
-                                .withFontQuizram54(size: 25.56, weight: .light)
+                                .withFontQuizram54Ref(size: 25.56, weight: .light)
                             
                             Image("sme")
                                 .overlay {
                                     Text("\(returnRightAnswers(count: vm.questionNumber + (vm.heartCount - 3)))/20")
-                                        .withFontQuizram54(size: 21.44, weight: .light)
+                                        .withFontQuizram54Ref(size: 21.44, weight: .light)
                                 }
                         }.padding(.top, 80)
                         Spacer()
@@ -256,7 +256,7 @@ struct QuestionViewQuizram54: View {
                                 .frame(height: 40)
                                 .overlay {
                                     Text("MAIN MENU")
-                                        .withFontQuizram54(size: 18.46, weight: .regular)
+                                        .withFontQuizram54Ref(size: 18.46, weight: .regular)
                                 }
                         }.padding(40)
                     }
@@ -266,7 +266,7 @@ struct QuestionViewQuizram54: View {
     
     private var multWinView: some View {
         ZStack {
-            Color.hexQuizram54("2E2017")
+            Color.hexQuizram54Ref("2E2017")
                 .edgesIgnoringSafeArea(.all)
                 .opacity(0.9)
             
@@ -278,12 +278,12 @@ struct QuestionViewQuizram54: View {
                         HStack {
                             VStack {
                                 Text("\(vm.player1)")
-                                    .withFontQuizram54(size: 21.44, weight: .light)
+                                    .withFontQuizram54Ref(size: 21.44, weight: .light)
                                 
                                 Image("sme")
                                     .overlay {
                                         Text("\(vm.player1RightAnswers)/10")
-                                            .withFontQuizram54(size: 21.44, weight: .light)
+                                            .withFontQuizram54Ref(size: 21.44, weight: .light)
                                     }
                             }
                             
@@ -291,20 +291,20 @@ struct QuestionViewQuizram54: View {
                             
                             VStack {
                                 Text("\(vm.player2)")
-                                    .withFontQuizram54(size: 21.44, weight: .light)
+                                    .withFontQuizram54Ref(size: 21.44, weight: .light)
                                 
                                 Image("sme")
                                     .overlay {
                                         Text("\(vm.player2RightAnswers)/10")
-                                            .withFontQuizram54(size: 21.44, weight: .light)
+                                            .withFontQuizram54Ref(size: 21.44, weight: .light)
                                     }
                             }
                         }.padding(.horizontal, 30)
                         
                         
                         Text("\(vm.player1RightAnswers >= vm.player2RightAnswers ? vm.player1: vm.player2) WIN!")
-                            .withFontQuizram54(size: 28.42, weight: .semibold, color: .hexQuizram54("55E4A2"))
-                            .shadow(color: .hexQuizram54("55E4A2"), radius: 15)
+                            .withFontQuizram54Ref(size: 28.42, weight: .semibold, color: .hexQuizram54Ref("55E4A2"))
+                            .shadow(color: .hexQuizram54Ref("55E4A2"), radius: 15)
                             .padding(.top, 30)
                             .padding(.bottom, -10)
                         Button {
@@ -315,7 +315,7 @@ struct QuestionViewQuizram54: View {
                                 .frame(height: 40)
                                 .overlay {
                                     Text("MAIN MENU")
-                                        .withFontQuizram54(size: 18.46, weight: .regular)
+                                        .withFontQuizram54Ref(size: 18.46, weight: .regular)
                                 }
                         }.padding(40)
                     }
@@ -333,5 +333,5 @@ struct QuestionViewQuizram54: View {
 }
 
 #Preview {
-    QuestionViewQuizram54(type: .withC)
+    QuestionViewQuizram54Ref(type: .withC)
 }

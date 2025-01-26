@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentViewQuizram54: View {
+struct ContentViewQuizram54Ref: View {
     @AppStorage("notificationsAvalible") var notificationsAvalible = true
     @State var showLoading = true
     @State var selectedTab: Tabs = .quiz
@@ -46,16 +46,16 @@ struct ContentViewQuizram54: View {
                         
                         switch selectedTab {
                         case .quiz:
-                            QuestionPickViewQuizram54()
+                            QuestionPickViewQuizram54Ref()
                         case .profile:
-                            ProfileViewQuizram54()
+                            ProfileViewQuizram54Ref()
                         case .facts:
-                            FactsViewQuizram54()
+                            FactsViewQuizram54Ref()
                         case .questions:
-                            QuestionsViewQuizram54()
+                            QuestionsViewQuizram54Ref()
                         }
                         tapBar
-                    }.backgroundQuizram54(2, padding: 0)
+                    }.backgroundQuizram54Ref(2, padding: 0)
                 }
             }
             
@@ -70,10 +70,10 @@ struct ContentViewQuizram54: View {
     private var topBar: some View {
         HStack {
             NavigationLink {
-                PrivacyViewQuizram54(showLoading: .constant(true), fromMainView: true)
+                PrivacyViewQuizram54Ref(showLoading: .constant(true), fromMainView: true)
             } label: {
                 Text("Privacy policy")
-                    .withFontQuizram54(size: 16, weight: .light, color: .hexQuizram54("FFFFFF"))
+                    .withFontQuizram54Ref(size: 16, weight: .light, color: .hexQuizram54Ref("FFFFFF"))
             }
             
             Spacer()
@@ -81,9 +81,9 @@ struct ContentViewQuizram54: View {
             Button {
                 notificationsAvalible.toggle()
                 if notificationsAvalible {
-                    NotificationManagerQuizram54.shared.createDailyNotification()
+                    NotificationManagerQuizram54Ref.shared.createDailyNotification()
                 } else {
-                    NotificationManagerQuizram54.shared.removePendingNotifications()
+                    NotificationManagerQuizram54Ref.shared.removePendingNotifications()
                 }
             } label: {
                 Image("notification.label")
@@ -135,7 +135,7 @@ struct ContentViewQuizram54: View {
             .padding(.vertical)
             .padding(.bottom, 50)
             .background {
-                Color.hexQuizram54("E5AD7C")
+                Color.hexQuizram54Ref("E5AD7C")
                     .opacity(0.65)
                 .edgesIgnoringSafeArea(.all)
             }
@@ -145,7 +145,7 @@ struct ContentViewQuizram54: View {
 }
 
 #Preview {
-    ContentViewQuizram54(showLoading: false)
+    ContentViewQuizram54Ref(showLoading: false)
 }
 
 

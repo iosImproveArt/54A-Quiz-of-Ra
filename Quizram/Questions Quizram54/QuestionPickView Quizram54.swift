@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct QuestionPickViewQuizram54: View {
+struct QuestionPickViewQuizram54Ref: View {
     
     
     var isLoggedIn: Bool = true
@@ -43,24 +43,24 @@ struct QuestionPickViewQuizram54: View {
             Spacer()
             
             Text("Choose a quiz mode")
-                .withFontQuizram54(size: 30.57, weight: .medium, color: .hexQuizram54("FFFFFF"))
+                .withFontQuizram54Ref(size: 30.57, weight: .medium, color: .hexQuizram54Ref("FFFFFF"))
             
             VStack(spacing: isSE ? 20: 60) {
                 NavigationLink {
-                    QuestionViewQuizram54(type: .oneP)
+                    QuestionViewQuizram54Ref(type: .oneP)
                 } label: {
                     Image("1p")
                 }
                 
                 
                 NavigationLink {
-                    QuestionViewQuizram54(type: .withC)
+                    QuestionViewQuizram54Ref(type: .withC)
                 } label: {
                     Image("wc")
                 }
                 
                 NavigationLink {
-                    QuestionViewQuizram54(type: .withF)
+                    QuestionViewQuizram54Ref(type: .withF)
                 } label: {
                     Image("wf")
                 }
@@ -72,5 +72,5 @@ struct QuestionPickViewQuizram54: View {
 }
 
 #Preview {
-    ContentViewQuizram54(showLoading: false, selectedTab: .quiz)
+    ContentViewQuizram54Ref(showLoading: false, selectedTab: .quiz)
 }

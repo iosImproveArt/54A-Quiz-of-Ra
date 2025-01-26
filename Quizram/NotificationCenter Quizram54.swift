@@ -1,7 +1,7 @@
 import UserNotifications
 
-class NotificationManagerQuizram54: NSObject, UNUserNotificationCenterDelegate {
-    static let shared = NotificationManagerQuizram54()
+class NotificationManagerQuizram54Ref: NSObject, UNUserNotificationCenterDelegate {
+    static let shared = NotificationManagerQuizram54Ref()
     
     private override init() {
         super.init()

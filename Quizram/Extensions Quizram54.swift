@@ -13,13 +13,13 @@ extension View {
         return UIScreen.main.bounds
     }
     
-    func withFontQuizram54(size: CGFloat, weight: Font.Weight, color: Color = .white) -> some View {
+    func withFontQuizram54Ref(size: CGFloat, weight: Font.Weight, color: Color = .white) -> some View {
         return self
             .font(.system(size: size, weight: weight))
             .foregroundStyle(color)
     }
     
-    func backgroundQuizram54(_ number: Int, padding: CGFloat = 12) -> some View {
+    func backgroundQuizram54Ref(_ number: Int, padding: CGFloat = 12) -> some View {
         self
             .padding(padding)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -29,10 +29,10 @@ extension View {
                     .edgesIgnoringSafeArea(.all)
                     .aspectRatio(contentMode: .fill)
             )
-            .navigationItemsCloseQuizram54()
+            .navigationItemsCloseQuizram54Ref()
     }
     
-    func navigationItemsCloseQuizram54() -> some View {
+    func navigationItemsCloseQuizram54Ref() -> some View {
         self
             .navigationBarBackButtonHidden()
             .navigationTitle("")
@@ -41,7 +41,7 @@ extension View {
 }
 
 extension Color {
-    static func hexQuizram54(_ hex: String) -> Color {
+    static func hexQuizram54Ref(_ hex: String) -> Color {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int: UInt64 = 0
         Scanner(string: hex).scanHexInt64(&int)

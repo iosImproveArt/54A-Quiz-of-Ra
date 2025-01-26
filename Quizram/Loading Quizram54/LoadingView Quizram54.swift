@@ -53,12 +53,12 @@ struct LoadingViewSQ: View {
                     }
                 
                 Text("Loading...")
-                    .withFontQuizram54(size: 30, weight: .medium)
+                    .withFontQuizram54Ref(size: 30, weight: .medium)
                     .padding(.bottom, 30)
-            }.backgroundQuizram54(1)
+            }.backgroundQuizram54Ref(1)
             
             
-            PrivacyViewQuizram54(showLoading: $showView)
+            PrivacyViewQuizram54Ref(showLoading: $showView)
                 .opacity(firstInApp ? 1: 0)
         }.onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {

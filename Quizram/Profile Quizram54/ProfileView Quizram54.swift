@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct ProfileViewQuizram54: View {
+struct ProfileViewQuizram54Ref: View {
     @Environment(\.dismiss) var dismiss
     
     @State var userPhoto = ""
@@ -15,7 +15,7 @@ struct ProfileViewQuizram54: View {
     @FocusState var textfield
     @State var showAlert = false
     
-    let fieldsColor = Color.hexQuizram54("B35C5C")
+    let fieldsColor = Color.hexQuizram54Ref("B35C5C")
     
     var isLoggedIn: Bool = true
     var currentTemperature: Double = 22.5
@@ -109,7 +109,7 @@ struct ProfileViewQuizram54: View {
                         .aspectRatio(contentMode: .fit)
                         .overlay {
                             Text("Save")
-                                .withFontQuizram54(size: 18.6, weight: .regular)
+                                .withFontQuizram54Ref(size: 18.6, weight: .regular)
                         }
                 }
                 
@@ -126,7 +126,7 @@ struct ProfileViewQuizram54: View {
                         .aspectRatio(contentMode: .fit)
                         .overlay {
                             Text("Delete")
-                                .withFontQuizram54(size: 18.6, weight: .regular)
+                                .withFontQuizram54Ref(size: 18.6, weight: .regular)
                         }
                 }
             }
@@ -175,7 +175,7 @@ struct ProfileViewQuizram54: View {
 }
 
 #Preview {
-    ContentViewQuizram54(showLoading: false, selectedTab: .profile)
+    ContentViewQuizram54Ref(showLoading: false, selectedTab: .profile)
 }
 
 
